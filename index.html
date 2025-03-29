@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <app-header></app-header>
+    <br /><br />
+    <main>
+      <section class="note-form-section">
+        <note-form></note-form>
+      </section>
+
+      <section class="notes-list-section">
+        <h2>Your Notes</h2>
+        <div class="notes-grid" id="notesContainer"></div>
+      </section>
+    </main>
+
+    <script src="components/app-header.js"></script>
+    <script src="components/note-form.js"></script>
+    <script src="components/note-item.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
